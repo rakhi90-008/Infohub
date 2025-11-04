@@ -1,0 +1,18 @@
+Setup Instructions
+------------------
+1. Backend:
+   cd InfoHub-Challenge/server
+   npm install
+   # add your OpenWeather API key in .env (OPENWEATHER_API_KEY=your_key)
+   npm run dev
+   Backend runs at http://localhost:3001
+
+2. Frontend:
+   cd InfoHub-Challenge/client
+   npm install
+   npm run dev
+   Open the Vite URL printed in the terminal (usually http://localhost:5173)
+
+Notes:
+- The client package.json contains a proxy to forward /api requests to the backend in development.
+- For production, build the client (npm run build) and serve the build from any static host or from Express.

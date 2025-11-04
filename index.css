@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.tab {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #e5e7eb;
+}
+.tab.active {
+  background: #2563eb;
+  color: white;
+}
+.card {
+  margin-top: 1rem;
+}
+.controls {
+  display: flex;
+  gap: 10px;
+}
+.primary {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.result {
+  margin-top: 1rem;
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.loading { color: gray; }
+.error { color: red; }
+.small { font-size: 0.9rem; color: gray; }
+.center { text-align: center; }
